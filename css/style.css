@@ -689,13 +689,24 @@ footer{
     list-style: none;
 }
 .country{
-    width: 185px;
+    width: 230px;
     height: 20px;
+    display: flex;
+    justify-content: space-between;
     border: 1px solid gray;
     border-radius: 40px;
-    padding: 5px 10px;
+    padding: 15px 10px;
+    position: relative;
 }
 .country a{
+    position: absolute;
+    top: 5px;
+    color: black;
+}
+.textCountry a{
+    position: absolute;
+    top: 5px;
+    left: 35px;
     text-decoration: none;
     color: rgb(24, 24, 24);
 }
@@ -1090,6 +1101,7 @@ footer{
     }
     .block4Content{
         font-size: 25px;
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 568px){
@@ -1101,6 +1113,12 @@ footer{
 @media (max-width: 560px){
     .block2Content a{
         font-size: 20px;
+    }
+}
+@media (max-width: 344px){
+    .block4Content{
+        font-size: 18px;
+        margin-bottom: 27px;
     }
 }
 
@@ -1378,6 +1396,7 @@ footer{
     .country{
         margin: 0 auto;
         margin-top: 15px;
+        left: 20px;
     }
     .icons{
         margin: 0 auto;
